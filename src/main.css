@@ -15,7 +15,7 @@ hr { margin: 20px 0; border-top: 2px dashed #008000; }
 .keyarea .qrcode_public { display: inline-block; float: left; }
 .keyarea .qrcode_private { display: inline-block; position: relative; top: 28px; float: right; }
 .pubkeyhex { word-wrap: break-word; }
-body { font-family: Arial; }
+body { color: white; background: black; font-family: Arial; }
 body, html { height: 99%; }
 .faqs ol { padding: 0 0 0 25px; }
 .faqs li { padding: 3px 0; }
@@ -30,7 +30,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #btcaddress, #btcprivwif, #detailaddress, #detailaddresscomp, #detailprivwif, #detailprivwifcomp { font-family: monospace; font-size: 1.25em; }
 #seedpoolarea { display: none; }
 #seedpooldisplay {  font-family: monospace; font-size: 1em; width: 640px; padding: 15px 5px; word-wrap: break-word; }
-.seedpoint { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #009900; position: absolute; z-index: 10; }
+.seedpoint { width: 6px; height: 6px; display: block; border-radius: 3px; background-color: #990000; position: absolute; z-index: 10; border-color: green; border:1px solid }
 #generate { font-family: monospace; font-size: 1.25em; height: 305px; text-align: left; position: relative; padding: 5px; border: 2px solid #009900; clear: both; }
 #generate span { padding: 5px 5px 0 5px; }
 #generatekeyinput { position: relative; z-index: 20; }
@@ -151,7 +151,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	.menu  
 	{
 	    text-align: left; margin: 0; padding: 0; display: block;
-	    background-color: #009900; /* # 009900 # 53c100 */
+	    background-color: black; /* # 009900 # 53c100 */
 	    border-top-left-radius: 5px; border-top-right-radius: 5px;
 	}
 	.menu .tab 
@@ -159,6 +159,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 	    position: relative; display: inline-block; border: 0px solid red;
 	    margin: 0; list-style: none; z-index: 110; cursor: pointer; 
 	    top: 1px; padding: 10px 20px; width: 162px; text-align: center;
+        color: #6d0;
 	}
 	.menu .tab.selected  
 	{
@@ -183,8 +184,9 @@ input[type=checkbox] { position: relative; z-index: 20; }
     #menu { visibility: visible; font-size: 90%; }
     #culturemenu { text-align: center; padding: 0 10px 5px 10px; margin-bottom: 3px; font-size: 90%; }
     #culturemenu span { padding: 3px; }
-    #culturemenu .selected { text-decoration: none; color: #000000; }
+    #culturemenu .selected { text-decoration: none; font-weight: bold; color: #ececec; }
     .culturemenurow { padding: 2px 0; }
+    .culturemenurow a:link {color: green; text-decoration: none;}
 
 	#braincommands .row .label { width: 200px; display: inline-block; }
 	#braincommands .notes { font-size: 80%; display: block; padding: 5px 10px; }
