@@ -1,16 +1,18 @@
-# bitaddress.org
-JavaScript Client-Side Bitcoin Wallet Generator
+# EPCwallet
+JavaScript Client-Side Experiencecoin Wallet Generator
 
-Now Bitcoin addresses and their corresponding private key can be conveniently 
+Now Experiencecoin addresses and their corresponding private key can be conveniently 
 generated in a web browser.
 
-The bitaddress.org project provides an all-in-one HTML document with embedded
+The EPCwallet project (https://paperwallet.experiencecoin.org) provides an all-in-one HTML document with embedded
 JavaScript/Css/Images. The JavaScript is readable not minified and contains no
 XMLHttpRequest's (no AJAX). The benefit of this technique is you can load the 
 JavaScript locally and trust that the JavaScript did not change after being 
 loaded. 
 
-Here is a link to the BitcoinTalk.org forum topic discussing this project:
+That's a fork of bitaddress.org
+
+Here is a link to the BitcoinTalk.org forum topic discussing bitaddress.org:
 https://bitcointalk.org/index.php?topic=43496.0
 
 
